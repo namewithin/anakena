@@ -1,0 +1,18 @@
+/* Translators: copy en.lproj to <code>.lproj. */
+"Enabled" = "Enabled";
+"Automatic" = "Automatic";
+"Manual only" = "Manual only";
+"Languages" = "Languages";
+"Last: %@" = "Last: %@";
+"Undo last fix (⌃⌥Space)" = "Undo last fix (⌃⌥Space)";
+"Learned: %ld always, %ld ignored" = "Learned: %ld always, %ld ignored";
+"Reset learning" = "Reset learning";
+"Ignore in %@" = "Ignore in %@";
+"Launch at login" = "Launch at login";
+"⚠︎ Add keyboard layouts for two languages in System Settings → Keyboard" = "⚠︎ Add keyboard layouts for two languages in System Settings → Keyboard";
+"⚠︎ No %@ spell-check dictionary" = "⚠︎ No %@ spell-check dictionary";
+"⚠︎ Grant access…" = "⚠︎ Grant access…";
+"⚠︎ Input Monitoring needed…" = "⚠︎ Input Monitoring needed…";
+"⚠︎ Secure Input is on — keys are hidden (log out and back in)" = "⚠︎ Secure Input is on — keys are hidden (log out and back in)";
+"✓ Access granted" = "✓ Access granted";
+"Quit" = "Quit";

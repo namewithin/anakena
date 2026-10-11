@@ -1,0 +1,17 @@
+"Enabled" = "Увімкнено";
+"Automatic" = "Автоматично";
+"Manual only" = "Тільки вручну";
+"Languages" = "Мови";
+"Last: %@" = "Останнє: %@";
+"Undo last fix (⌃⌥Space)" = "Скасувати останнє (⌃⌥Space)";
+"Learned: %ld always, %ld ignored" = "Навчено: %ld завжди, %ld ігнор";
+"Reset learning" = "Скинути навчання";
+"Ignore in %@" = "Не чіпати в %@";
+"Launch at login" = "Запускати при вході";
+"⚠︎ Add keyboard layouts for two languages in System Settings → Keyboard" = "⚠︎ Додай розкладки двох мов у Системні параметри → Клавіатура";
+"⚠︎ No %@ spell-check dictionary" = "⚠︎ Немає словника %@ для перевірки правопису";
+"⚠︎ Grant access…" = "⚠︎ Дати доступ…";
+"⚠︎ Input Monitoring needed…" = "⚠︎ Потрібен Input Monitoring…";
+"⚠︎ Secure Input is on — keys are hidden (log out and back in)" = "⚠︎ Secure Input активний — клавіші не видно (вийди/зайди в акаунт)";
+"✓ Access granted" = "✓ Доступ є";
+"Quit" = "Вийти";

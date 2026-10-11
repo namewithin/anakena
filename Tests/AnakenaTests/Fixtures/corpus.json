@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "uk-001",
+    "category": "uk_plain",
+    "text": "Привіт, ти вже подивився мій запит?"
+  },
+  {
+    "id": "uk-002",
+    "category": "uk_plain",
+    "text": "Я думаю, що це можна зробити завтра."
+  },
+  {
+    "id": "uk-003",
+    "category": "uk_plain",
+    "text": "Ще не встиг, зараз закінчу і напишу."
+  },
+  {
+    "id": "uk-004",
+    "category": "uk_plain",
+    "text": "А ти не знаєш, де лежить той файл?"
+  },
+  {
+    "id": "uk-005",
+    "category": "uk_plain",
+    "text": "Давай зустрінемось о третій у переговорній."
+  },
+  {
+    "id": "uk-006",
+    "category": "uk_plain",
+    "text": "Дякую, все працює як треба!"
+  },
+  {
+    "id": "uk-007",
+    "category": "uk_plain",
+    "text": "Це не мій баг, я туди не лазив."
+  },
+  {
+    "id": "uk-008",
+    "category": "uk_plain",
+    "text": "В мене сьогодні три дзвінки підряд."
+  },
+  {
+    "id": "uk-009",
+    "category": "uk_plain",
+    "text": "Я у відпустці до понеділка, потім повернусь."
+  },
+  {
+    "id": "uk-010",
+    "category": "uk_plain",
+    "text": "Хто сьогодні черговий по підтримці?"
+  },
+  {
+    "id": "uk-011",
+    "category": "uk_plain",
+    "text": "Не можу відкрити таблицю, пише «немає доступу»."
+  },
+  {
+    "id": "uk-012",
+    "category": "uk_plain",
+    "text": "Ну це вже занадто, треба поговорити з командою."
+  },
+  {
+    "id": "uk-013",
+    "category": "uk_plain",
+    "text": "Ми ще не вирішили, що робити з цим."
+  },
+  {
+    "id": "uk-014",
+    "category": "uk_plain",
+    "text": "Дай мені п'ять хвилин, я зараз повернуся."
+  },
+  {
+    "id": "uk-015",
+    "category": "uk_plain",
+    "text": "Ні, це не потрібно переписувати з нуля."
+  },
+  {
+    "id": "uk-016",
+    "category": "uk_plain",
+    "text": "Добрий день, колеги! Нагадую про щотижневу нараду."
+  },
+  {
+    "id": "uk-017",
+    "category": "uk_plain",
+    "text": "Я погоджуюсь з Іриною, так буде простіше."
+  },
+  {
+    "id": "uk-018",
+    "category": "uk_plain",
+    "text": "А можна ще одне питання?"
+  },
+  {
+    "id": "uk-019",
+    "category": "uk_plain",
+    "text": "Вибач, що так пізно відповідаю."
+  },
+  {
+    "id": "uk-020",
+    "category": "uk_plain",
+    "text": "Сьогодні в офісі нікого, всі на віддалені."
+  },
+  {
+    "id": "uk-021",
+    "category": "uk_plain",
+    "text": "Це було на минулому тижні, пам'ятаєш?"
+  },
+  {
+    "id": "uk-022",
+    "category": "uk_plain",
+    "text": "Я не розумію, чому це ламається тільки в п'ятницю."
+  },
+  {
+    "id": "uk-023",
+    "category": "uk_plain",
+    "text": "Принеси, будь ласка, зарядку до мого ноутбука."
+  },
+  {
+    "id": "uk-024",
+    "category": "uk_plain",
+    "text": "Кава закінчилась, хто піде купувати?"
+  },
+  {
+    "id": "uk-025",
+    "category": "uk_plain",
+    "text": "Обід о другій, ідемо разом?"
+  },
+  {
+    "id": "uk-026",
+    "category": "uk_plain",
+    "text": "Тікет закрито, дякую всім за допомогу."
+  },
+  {
+    "id": "uk-027",
+    "category": "uk_plain",
+    "text": "Що там з оплатою за ліцензію?"
+  },
+  {
+    "id": "uk-028",
+    "category": "uk_plain",
+    "text": "Я ще раз перевірив, помилка не зникла."
+  },
+  {
+    "id": "uk-029",
+    "category": "uk_plain",
+    "text": "Мені здається, ми щось пропустили в плані."
+  },
+  {
+    "id": "uk-030",
+    "category": "uk_plain",
+    "text": "Гаразд, тоді домовились."
+  },
+  {
+    "id": "uk-031",
+    "category": "uk_plain",
+    "text": "У нас є ще дві години до релізу."
+  },
+  {
+    "id": "uk-032",
+    "category": "uk_plain",
+    "text": "Це не терміново, можна після вихідних."
+  },
+  {
+    "id": "uk-033",
+    "category": "uk_plain",
+    "text": "Хто знає, як змінити пароль до пошти?"
+  },
+  {
+    "id": "uk-034",
+    "category": "uk_plain",
+    "text": "Я тут, на зв'язку, пишіть у будь-який час."
+  },
+  {
+    "id": "uk-035",
+    "category": "uk_plain",
+    "text": "Він сказав, що все готово, але я не бачу результату."
+  },
+  {
+    "id": "uk-036",
+    "category": "uk_plain",
+    "text": "Ми з Олею вже все обговорили."
+  },
+  {
+    "id": "uk-037",
+    "category": "uk_plain",
+    "text": "Інтернет знову пропав, працюю з телефону."
+  },
+  {
+    "id": "uk-038",
+    "category": "uk_plain",
+    "text": "А ще треба оновити документацію, бо вона застаріла."
+  },
+  {
+    "id": "uk-039",
+    "category": "uk_plain",
+    "text": "Можеш скинути посилання на запис зустрічі?"
+  },
+  {
+    "id": "uk-040",
+    "category": "uk_plain",
+    "text": "Спробуй перезавантажити сторінку, інколи допомагає."
+  },
+  {
+    "id": "uk-041",
+    "category": "uk_plain",
+    "text": "Це точно не те, що ми просили."
+  },
+  {
+    "id": "uk-042",
+    "category": "uk_plain",
+    "text": "Моя думка така: краще почекати до наступного спринту."
+  },
+  {
+    "id": "uk-043",
+    "category": "uk_plain",
+    "text": "Дуже цікава ідея, але є одне «але»."
+  },
+  {
+    "id": "uk-044",
+    "category": "uk_plain",
+    "text": "Менеджер хоче дізнатись, коли буде готово."
+  },
+  {
+    "id": "uk-045",
+    "category": "uk_plain",
+    "text": "Вчора був складний день, сьогодні легше."
+  },
+  {
+    "id": "uk-046",
+    "category": "uk_plain",
+    "text": "Привіт усім! Хто сьогодні на дзвінку?"
+  },
+  {
+    "id": "uk-047",
+    "category": "uk_plain",
+    "text": "Я не впевнений, що це правильне рішення."
+  },
+  {
+    "id": "uk-048",
+    "category": "uk_plain",
+    "text": "Дякую за швидку відповідь, дуже виручив."
+  },
+  {
+    "id": "uk-049",
+    "category": "uk_plain",
+    "text": "Є ідея: давайте розділимо задачу на дві частини."
+  },
+  {
+    "id": "uk-050",
+    "category": "uk_plain",
+    "text": "Він не прийшов, бо захворів."
+  },
+  {
+    "id": "uk-051",
+    "category": "uk_plain",
+    "text": "Скільки це займе часу, як ти гадаєш?"
+  },
+  {
+    "id": "uk-052",
+    "category": "uk_plain",
+    "text": "Ми закінчили раніше, ніж планували."
+  },
+  {
+    "id": "uk-053",
+    "category": "uk_plain",
+    "text": "Вона вже написала відповідь клієнту?"
+  },
+  {
+    "id": "uk-054",
+    "category": "uk_plain",
+    "text": "Не хвилюйся, я все виправлю до вечора."
+  },
+  {
+    "id": "uk-055",
+    "category": "uk_plain",
+    "text": "Тут щось не так із шрифтами."
+  },
+  {
+    "id": "uk-056",
+    "category": "uk_plain",
+    "text": "Будь ласка, не забудьте заповнити табель."
+  },
+  {
+    "id": "uk-057",
+    "category": "uk_plain",
+    "text": "У мене на екрані порожньо, а в тебе?"
+  },
+  {
+    "id": "uk-058",
+    "category": "uk_plain",
+    "text": "Це ж дуже просто, дивись!"
+  },
+  {
+    "id": "uk-059",
+    "category": "uk_plain",
+    "text": "Нам потрібен ще один тестувальник на проєкт."
+  },
+  {
+    "id": "uk-060",
+    "category": "uk_plain",
+    "text": "Подякуй від мене Андрію за допомогу."
+  },
+  {
+    "id": "uk-061",
+    "category": "uk_plain",
+    "text": "Вибачте за незручності, ми вже працюємо над цим."
+  },
+  {
+    "id": "uk-062",
+    "category": "uk_plain",
+    "text": "Я про це чув, але не вірив."
+  },
+  {
+    "id": "uk-063",
+    "category": "uk_plain",
+    "text": "Може, спробуємо інший підхід?"
+  },
+  {
+    "id": "uk-064",
+    "category": "uk_plain",
+    "text": "Тут треба ще раз усе перевірити, бо ризик великий."
+  },
+  {
+    "id": "uk-065",
+    "category": "uk_plain",
+    "text": "А що, якщо клієнт відмовиться?"
+  },
+  {
+    "id": "uk-066",
+    "category": "uk_plain",
+    "text": "Завтра я працюю з дому, на зв'язку з дев'ятої."
+  },
+  {
+    "id": "uk-067",
+    "category": "uk_plain",
+    "text": "Мені потрібна твоя допомога з одним питанням."
+  },
+  {
+    "id": "uk-068",
+    "category": "uk_plain",
+    "text": "Ми не встигаємо, треба переносити дедлайн."
+  },
+  {
+    "id": "uk-069",
+    "category": "uk_plain",
+    "text": "Погано чути, ти можеш говорити голосніше?"
+  },
+  {
+    "id": "uk-070",
+    "category": "uk_plain",
+    "text": "Це гарна новина, радий за вас!"
+  },
+  {
+    "id": "uk-071",
+    "category": "uk_plain",
+    "text": "Ну і що тепер робити з цим усім?"
+  },
+  {
+    "id": "uk-072",
+    "category": "uk_plain",
+    "text": "Знайшов! Воно було в іншій папці."
+  },
+  {
+    "id": "uk-073",
+    "category": "uk_plain",
+    "text": "Поки що без змін, чекаємо відповіді."
+  },
+  {
+    "id": "uk-074",
+    "category": "uk_plain",
+    "text": "Колеги, прошу зайти на нараду о десятій."
+  },
+  {
+    "id": "uk-075",
+    "category": "uk_plain",
+    "text": "Я щойно розмовляв із Сергієм, він погодився."
+  },
+  {
+    "id": "uk-076",
+    "category": "uk_plain",
+    "text": "Потрібно ще трохи часу, щоб усе перевірити."
+  },
+  {
+    "id": "uk-077",
+    "category": "uk_plain",
+    "text": "Чи є в нас бюджет на нові монітори?"
+  },
+  {
+    "id": "uk-078",
+    "category": "uk_plain",
+    "text": "У вівторок у мене лікар, на роботі буду після обіду."
+  },
+  {
+    "id": "uk-079",
+    "category": "uk_plain",
+    "text": "Не те щоб я проти, просто не бачу сенсу."
+  },
+  {
+    "id": "uk-080",
+    "category": "uk_plain",
+    "text": "Ми обговоримо це на ретро, добре?"
+  },
+  {
+    "id": "uk-081",
+    "category": "uk_plain",
+    "text": "Пишу з телефону, тому коротко."
+  },
+  {
+    "id": "uk-082",
+    "category": "uk_plain",
+    "text": "Дякую, що врахували мої побажання."
+  },
+  {
+    "id": "uk-083",
+    "category": "uk_plain",
+    "text": "Скажи, а це точно безпечно?"
+  },
+  {
+    "id": "uk-084",
+    "category": "uk_plain",
+    "text": "Нова політика відпусток уже діє з першого числа."
+  },
+  {
+    "id": "uk-085",
+    "category": "uk_plain",
+    "text": "Він же казав, що це тимчасово!"
+  },
+  {
+    "id": "uk-086",
+    "category": "uk_plain",
+    "text": "Який у нас план на другу половину дня?"
+  },
+  {
+    "id": "uk-087",
+    "category": "uk_plain",
+    "text": "Ґаджети для тестів уже видали?"
+  },
+  {
+    "id": "uk-088",
+    "category": "uk_plain",
+    "text": "Цей звіт потрібен до кінця тижня."
+  },
+  {
+    "id": "uk-089",
+    "category": "uk_plain",
+    "text": "Привіт! Я хотів уточнити по вчорашній розмові."
+  },
+  {
+    "id": "uk-090",
+    "category": "uk_plain",
+    "text": "Звісно, можу допомогти, коли буду вільний."
+  },
+  {
+    "id": "uk-091",
+    "category": "uk_plain",
+    "text": "Це дуже довга історія, розповім за кавою."
+  },
+  {
+    "id": "uk-092",
+    "category": "uk_plain",
+    "text": "А ти був на конференції у Львові?"
+  },
+  {
+    "id": "uk-093",
+    "category": "uk_plain",
+    "text": "Не можу зараз говорити, передзвоню за годину."
+  },
+  {
+    "id": "uk-094",
+    "category": "uk_plain",
+    "text": "Усе гаразд, просто трохи втомився."
+  },
+  {
+    "id": "uk-095",
+    "category": "uk_plain",
+    "text": "З ранку нічого не працює, це нормально?"
+  },
+  {
+    "id": "uk-096",
+    "category": "uk_plain",
+    "text": "Прошу перевірити мою заявку на відпустку."
+  },
+  {
+    "id": "uk-097",
+    "category": "uk_plain",
+    "text": "Мені дуже шкода, що так вийшло."
+  },
+  {
+    "id": "uk-098",
+    "category": "uk_plain",
+    "text": "Я бачив її презентацію, вона дуже класна."
+  },
+  {
+    "id": "uk-099",
+    "category": "uk_plain",
+    "text": "Мабуть, варто зробити перерву і потім повернутись."
+  },
+  {
+    "id": "uk-100",
+    "category": "uk_plain",
+    "text": "Вона поїхала до Києва на два дні."
+  },
+  {
+    "id": "uk-101",
+    "category": "uk_plain",
+    "text": "Я не бачу кнопки, яку ти описав."
+  },
+  {
+    "id": "uk-102",
+    "category": "uk_plain",
+    "text": "Дайте знати, якщо щось піде не так."
+  },
+  {
+    "id": "uk-103",
+    "category": "uk_plain",
+    "text": "Мій друг каже, що ця програма не варта грошей."
+  },
+  {
+    "id": "uk-104",
+    "category": "uk_plain",
+    "text": "Ми це вже робили торік, і воно спрацювало."
+  },
+  {
+    "id": "uk-105",
+    "category": "uk_plain",
+    "text": "Тримайся, скоро вихідні!"
+  },
+  {
+    "id": "uk-106",
+    "category": "uk_plain",
+    "text": "Вибач, я не зрозумів питання."
+  },
+  {
+    "id": "uk-107",
+    "category": "uk_plain",
+    "text": "Сьогодні день народження в Максима, не забудьте привітати."
+  },
+  {
+    "id": "uk-108",
+    "category": "uk_plain",
+    "text": "Ще раз дякую, ти мене просто врятував."
+  },
+  {
+    "id": "uk-109",
+    "category": "uk_plain",
+    "text": "Все, я пішов, до завтра!"
+  },
+  {
+    "id": "uk-110",
+    "category": "uk_plain",
+    "text": "Є хвилинка? Хочу показати одну річ."
+  },
+  {
+    "id": "en-001",
+    "category": "en_plain",
+    "text": "Can you take a look at this when you have a minute?"
+  },
+  {
+    "id": "en-002",
+    "category": "en_plain",
+    "text": "I think we should ship it on Monday."
+  },
+  {
+    "id": "en-003",
+    "category": "en_plain",
+    "text": "Not yet, I'm still waiting for the review."
+  },
+  {
+    "id": "en-004",
+    "category": "en_plain",
+    "text": "Who is on call this week?"
+  },
+  {
+    "id": "en-005",
+    "category": "en_plain",
+    "text": "Sorry, I missed the meeting. What did I miss?"
+  },
+  {
+    "id": "en-006",
+    "category": "en_plain",
+    "text": "It works on my machine, I swear."
+  },
+  {
+    "id": "en-007",
+    "category": "en_plain",
+    "text": "Let's sync tomorrow morning, I'm free after ten."
+  },
+  {
+    "id": "en-008",
+    "category": "en_plain",
+    "text": "Thanks, that fixed it!"
+  },
+  {
+    "id": "en-009",
+    "category": "en_plain",
+    "text": "I'm out of office until Thursday."
+  },
+  {
+    "id": "en-010",
+    "category": "en_plain",
+    "text": "Is it just me or is the build slow today?"
+  },
+  {
+    "id": "en-011",
+    "category": "en_plain",
+    "text": "We need to talk about the roadmap."
+  },
+  {
+    "id": "en-012",
+    "category": "en_plain",
+    "text": "Please don't merge this before QA signs off."
+  },
+  {
+    "id": "en-013",
+    "category": "en_plain",
+    "text": "I'll send the notes after the call."
+  },
+  {
+    "id": "en-014",
+    "category": "en_plain",
+    "text": "No worries, take your time."
+  },
+  {
+    "id": "en-015",
+    "category": "en_plain",
+    "text": "Could you share your screen for a second?"
+  },
+  {
+    "id": "en-016",
+    "category": "en_plain",
+    "text": "The client wants a demo by Friday."
+  },
+  {
+    "id": "en-017",
+    "category": "en_plain",
+    "text": "This is not what we agreed on."
+  },
+  {
+    "id": "en-018",
+    "category": "en_plain",
+    "text": "I have no idea why it fails on the second run."
+  },
+  {
+    "id": "en-019",
+    "category": "en_plain",
+    "text": "Can we move the standup to ten thirty?"
+  },
+  {
+    "id": "en-020",
+    "category": "en_plain",
+    "text": "Good morning, everyone! Quick update below."
+  },
+  {
+    "id": "en-021",
+    "category": "en_plain",
+    "text": "It is a small change, but it matters."
+  },
+  {
+    "id": "en-022",
+    "category": "en_plain",
+    "text": "I'm not sure it is worth the effort."
+  },
+  {
+    "id": "en-023",
+    "category": "en_plain",
+    "text": "Looks good to me, just one small nit."
+  },
+  {
+    "id": "en-024",
+    "category": "en_plain",
+    "text": "We are blocked on the design team."
+  },
+  {
+    "id": "en-025",
+    "category": "en_plain",
+    "text": "Could someone add me to the channel?"
+  },
+  {
+    "id": "en-026",
+    "category": "en_plain",
+    "text": "I will take it, assign it to me."
+  },
+  {
+    "id": "en-027",
+    "category": "en_plain",
+    "text": "So, what is the plan for the next sprint?"
+  },
+  {
+    "id": "en-028",
+    "category": "en_plain",
+    "text": "Please update the ticket when you are done."
+  },
+  {
+    "id": "en-029",
+    "category": "en_plain",
+    "text": "I think it is a permissions issue."
+  },
+  {
+    "id": "en-030",
+    "category": "en_plain",
+    "text": "A quick question about the invoice, if you don't mind."
+  },
+  {
+    "id": "en-031",
+    "category": "en_plain",
+    "text": "We shipped it, but nobody noticed."
+  },
+  {
+    "id": "en-032",
+    "category": "en_plain",
+    "text": "Is this a bug or a feature?"
+  },
+  {
+    "id": "en-033",
+    "category": "en_plain",
+    "text": "I'll be a few minutes late."
+  },
+  {
+    "id": "en-034",
+    "category": "en_plain",
+    "text": "The meeting is at noon, not at one."
+  },
+  {
+    "id": "en-035",
+    "category": "en_plain",
+    "text": "Do we have a rollback plan?"
+  },
+  {
+    "id": "en-036",
+    "category": "en_plain",
+    "text": "Yes, it is fixed in the latest version."
+  },
+  {
+    "id": "en-037",
+    "category": "en_plain",
+    "text": "Let me know if you need anything else."
+  },
+  {
+    "id": "en-038",
+    "category": "en_plain",
+    "text": "I can't log in, it says my password expired."
+  },
+  {
+    "id": "en-039",
+    "category": "en_plain",
+    "text": "We should write this down somewhere."
+  },
+  {
+    "id": "en-040",
+    "category": "en_plain",
+    "text": "It's too early to say, honestly."
+  },
+  {
+    "id": "en-041",
+    "category": "en_plain",
+    "text": "That is a great point, thanks for raising it."
+  },
+  {
+    "id": "en-042",
+    "category": "en_plain",
+    "text": "I need a coffee before I answer that."
+  },
+  {
+    "id": "en-043",
+    "category": "en_plain",
+    "text": "Can I get a second pair of eyes on this?"
+  },
+  {
+    "id": "en-044",
+    "category": "en_plain",
+    "text": "We lost two hours to a typo."
+  },
+  {
+    "id": "en-045",
+    "category": "en_plain",
+    "text": "The deadline is tight, but doable."
+  },
+  {
+    "id": "en-046",
+    "category": "en_plain",
+    "text": "Nobody told me about the change."
+  },
+  {
+    "id": "en-047",
+    "category": "en_plain",
+    "text": "Is the staging server down again?"
+  },
+  {
+    "id": "en-048",
+    "category": "en_plain",
+    "text": "I'm working on it right now."
+  },
+  {
+    "id": "en-049",
+    "category": "en_plain",
+    "text": "Why is this test so flaky?"
+  },
+  {
+    "id": "en-050",
+    "category": "en_plain",
+    "text": "Thanks for the heads up, I appreciate it."
+  },
+  {
+    "id": "en-051",
+    "category": "en_plain",
+    "text": "We can discuss it at the retro."
+  },
+  {
+    "id": "en-052",
+    "category": "en_plain",
+    "text": "It is on my list, I promise."
+  },
+  {
+    "id": "en-053",
+    "category": "en_plain",
+    "text": "Please keep me in the loop."
+  },
+  {
+    "id": "en-054",
+    "category": "en_plain",
+    "text": "I did it so we can move on."
+  },
+  {
+    "id": "en-055",
+    "category": "en_plain",
+    "text": "The report is due at the end of the day."
+  },
+  {
+    "id": "en-056",
+    "category": "en_plain",
+    "text": "Not a big deal, we can fix it later."
+  },
+  {
+    "id": "en-057",
+    "category": "en_plain",
+    "text": "Let's keep it simple, shall we?"
+  },
+  {
+    "id": "en-058",
+    "category": "en_plain",
+    "text": "Hi team, a reminder about the all-hands at four."
+  },
+  {
+    "id": "en-059",
+    "category": "en_plain",
+    "text": "I was told it is a one-line change."
+  },
+  {
+    "id": "en-060",
+    "category": "en_plain",
+    "text": "Are we sure it is safe to deploy on a Friday?"
+  },
+  {
+    "id": "en-061",
+    "category": "en_plain",
+    "text": "The numbers don't add up, can you double-check?"
+  },
+  {
+    "id": "en-062",
+    "category": "en_plain",
+    "text": "I will be in a meeting, ping me if urgent."
+  },
+  {
+    "id": "en-063",
+    "category": "en_plain",
+    "text": "It is a long story, I'll tell you later."
+  },
+  {
+    "id": "en-064",
+    "category": "en_plain",
+    "text": "We have a lot to do before launch."
+  },
+  {
+    "id": "en-065",
+    "category": "en_plain",
+    "text": "Honestly, I'd rather not touch that code."
+  },
+  {
+    "id": "en-066",
+    "category": "en_plain",
+    "text": "Any update on the vendor contract?"
+  },
+  {
+    "id": "en-067",
+    "category": "en_plain",
+    "text": "That is it for today, see you all tomorrow."
+  },
+  {
+    "id": "en-068",
+    "category": "en_plain",
+    "text": "I forgot to attach the file, sorry!"
+  },
+  {
+    "id": "en-069",
+    "category": "en_plain",
+    "text": "Who owns this service now?"
+  },
+  {
+    "id": "en-070",
+    "category": "en_plain",
+    "text": "It is up to you, I'm fine either way."
+  },
+  {
+    "id": "en-071",
+    "category": "en_plain",
+    "text": "A few things to fix before we release."
+  },
+  {
+    "id": "en-072",
+    "category": "en_plain",
+    "text": "I'd like to understand the root cause first."
+  },
+  {
+    "id": "en-073",
+    "category": "en_plain",
+    "text": "Is it OK if I leave early today?"
+  },
+  {
+    "id": "en-074",
+    "category": "en_plain",
+    "text": "We're almost there, just a bit more testing."
+  },
+  {
+    "id": "en-075",
+    "category": "en_plain",
+    "text": "One more thing: the docs are out of date."
+  },
+  {
+    "id": "en-076",
+    "category": "en_plain",
+    "text": "It was a team effort, thanks everyone."
+  },
+  {
+    "id": "en-077",
+    "category": "en_plain",
+    "text": "I don't think so, but let me check."
+  },
+  {
+    "id": "en-078",
+    "category": "en_plain",
+    "text": "The call dropped, can you hear me now?"
+  },
+  {
+    "id": "en-079",
+    "category": "en_plain",
+    "text": "We should be careful, it's a big customer."
+  },
+  {
+    "id": "en-080",
+    "category": "en_plain",
+    "text": "I want to go over this once more."
+  },
+  {
+    "id": "en-081",
+    "category": "en_plain",
+    "text": "Is there a way to undo this?"
+  },
+  {
+    "id": "en-082",
+    "category": "en_plain",
+    "text": "It's not you, it's the cache."
+  },
+  {
+    "id": "en-083",
+    "category": "en_plain",
+    "text": "Please review my changes when you can."
+  },
+  {
+    "id": "en-084",
+    "category": "en_plain",
+    "text": "How long will the migration take?"
+  },
+  {
+    "id": "en-085",
+    "category": "en_plain",
+    "text": "I am so tired of this error message."
+  },
+  {
+    "id": "en-086",
+    "category": "en_plain",
+    "text": "Our priority is the login flow."
+  },
+  {
+    "id": "en-087",
+    "category": "en_plain",
+    "text": "It is a bit of a mess, to be honest."
+  },
+  {
+    "id": "en-088",
+    "category": "en_plain",
+    "text": "We'll circle back after lunch."
+  },
+  {
+    "id": "en-089",
+    "category": "en_plain",
+    "text": "If it is broken, we should fix it."
+  },
+  {
+    "id": "en-090",
+    "category": "en_plain",
+    "text": "I'm in, count me in for Friday."
+  },
+  {
+    "id": "en-091",
+    "category": "en_plain",
+    "text": "Someone has to own the follow-up."
+  },
+  {
+    "id": "en-092",
+    "category": "en_plain",
+    "text": "Wait, is that the final version?"
+  },
+  {
+    "id": "en-093",
+    "category": "en_plain",
+    "text": "Thanks a lot, you made my day!"
+  },
+  {
+    "id": "en-094",
+    "category": "en_plain",
+    "text": "This is going to take a while."
+  },
+  {
+    "id": "en-095",
+    "category": "en_plain",
+    "text": "The team did a great job this quarter."
+  },
+  {
+    "id": "en-096",
+    "category": "en_plain",
+    "text": "Quick reminder: timesheets are due today."
+  },
+  {
+    "id": "en-097",
+    "category": "en_plain",
+    "text": "Can we do it in a week or so?"
+  },
+  {
+    "id": "en-098",
+    "category": "en_plain",
+    "text": "I'd say it is fine as is."
+  },
+  {
+    "id": "en-099",
+    "category": "en_plain",
+    "text": "So far so good, no complaints."
+  },
+  {
+    "id": "en-100",
+    "category": "en_plain",
+    "text": "It is a no from me, sorry."
+  },
+  {
+    "id": "en-101",
+    "category": "en_plain",
+    "text": "We need to talk to legal about it."
+  },
+  {
+    "id": "en-102",
+    "category": "en_plain",
+    "text": "Did anyone try turning it off and on?"
+  },
+  {
+    "id": "en-103",
+    "category": "en_plain",
+    "text": "I am on it, give me an hour."
+  },
+  {
+    "id": "en-104",
+    "category": "en_plain",
+    "text": "It is in the backlog, but not a priority."
+  },
+  {
+    "id": "en-105",
+    "category": "en_plain",
+    "text": "Mind if I jump in?"
+  },
+  {
+    "id": "en-106",
+    "category": "en_plain",
+    "text": "Our users are asking for dark mode again."
+  },
+  {
+    "id": "en-107",
+    "category": "en_plain",
+    "text": "A lot of people are out this week."
+  },
+  {
+    "id": "en-108",
+    "category": "en_plain",
+    "text": "I saw it, I just forgot to reply."
+  },
+  {
+    "id": "en-109",
+    "category": "en_plain",
+    "text": "Okay, I am going to log off now."
+  },
+  {
+    "id": "en-110",
+    "category": "en_plain",
+    "text": "To be honest, I liked the old design."
+  },
+  {
+    "id": "mx-001",
+    "category": "uk_en_mixed",
+    "text": "Зроби, будь ласка, PR до кінця дня."
+  },
+  {
+    "id": "mx-002",
+    "category": "uk_en_mixed",
+    "text": "Я вже зробив merge у main, перевір."
+  },
+  {
+    "id": "mx-003",
+    "category": "uk_en_mixed",
+    "text": "Хто задеплоїв staging? Там усе зламалось."
+  },
+  {
+    "id": "mx-004",
+    "category": "uk_en_mixed",
+    "text": "У Jira висить тікет ще з минулого місяця."
+  },
+  {
+    "id": "mx-005",
+    "category": "uk_en_mixed",
+    "text": "Скинь у Slack посилання на Figma."
+  },
+  {
+    "id": "mx-006",
+    "category": "uk_en_mixed",
+    "text": "CI знову червоний, хтось може глянути?"
+  },
+  {
+    "id": "mx-007",
+    "category": "uk_en_mixed",
+    "text": "Цей bug відтворюється тільки на iPhone."
+  },
+  {
+    "id": "mx-008",
+    "category": "uk_en_mixed",
+    "text": "Нам потрібен новий API для платежів."
+  },
+  {
+    "id": "mx-009",
+    "category": "uk_en_mixed",
+    "text": "Я залив hotfix, але deploy ще не пройшов."
+  },
+  {
+    "id": "mx-010",
+    "category": "uk_en_mixed",
+    "text": "Дизайнер оновив макети у Figma."
+  },
+  {
+    "id": "mx-011",
+    "category": "uk_en_mixed",
+    "text": "Давай обговоримо це на daily завтра."
+  },
+  {
+    "id": "mx-012",
+    "category": "uk_en_mixed",
+    "text": "Прошу зробити code review до обіду."
+  },
+  {
+    "id": "mx-013",
+    "category": "uk_en_mixed",
+    "text": "Backend вже готовий, чекаємо на frontend."
+  },
+  {
+    "id": "mx-014",
+    "category": "uk_en_mixed",
+    "text": "Я відкрив issue на GitHub, подивись."
+  },
+  {
+    "id": "mx-015",
+    "category": "uk_en_mixed",
+    "text": "Pipeline впав на етапі тестів."
+  },
+  {
+    "id": "mx-016",
+    "category": "uk_en_mixed",
+    "text": "Можеш зробити rebase на main?"
+  },
+  {
+    "id": "mx-017",
+    "category": "uk_en_mixed",
+    "text": "Спринт закінчується в п'ятницю, тож update у Jira обов'язковий."
+  },
+  {
+    "id": "mx-018",
+    "category": "uk_en_mixed",
+    "text": "Він написав у Slack, що це не наш баг."
+  },
+  {
+    "id": "mx-019",
+    "category": "uk_en_mixed",
+    "text": "Токен для API закінчився, треба новий."
+  },
+  {
+    "id": "mx-020",
+    "category": "uk_en_mixed",
+    "text": "На production все стабільно, на staging — ні."
+  },
+  {
+    "id": "mx-021",
+    "category": "uk_en_mixed",
+    "text": "Я зробив review, лишив два коментарі."
+  },
+  {
+    "id": "mx-022",
+    "category": "uk_en_mixed",
+    "text": "У нас timeout на запиті до бази."
+  },
+  {
+    "id": "mx-023",
+    "category": "uk_en_mixed",
+    "text": "Це feature request від клієнта, не баг."
+  },
+  {
+    "id": "mx-024",
+    "category": "uk_en_mixed",
+    "text": "Дай доступ до репозиторію, будь ласка."
+  },
+  {
+    "id": "mx-025",
+    "category": "uk_en_mixed",
+    "text": "Запусти тести локально перед push."
+  },
+  {
+    "id": "mx-026",
+    "category": "uk_en_mixed",
+    "text": "Коли буде release нової версії?"
+  },
+  {
+    "id": "mx-027",
+    "category": "uk_en_mixed",
+    "text": "Документацію обіцяли оновити в Confluence."
+  },
+  {
+    "id": "mx-028",
+    "category": "uk_en_mixed",
+    "text": "Ми перейшли з Jenkins на GitHub Actions."
+  },
+  {
+    "id": "mx-029",
+    "category": "uk_en_mixed",
+    "text": "Добре, закрию цей ticket сьогодні."
+  },
+  {
+    "id": "mx-030",
+    "category": "uk_en_mixed",
+    "text": "Давай зробимо quick call на десять хвилин."
+  },
+  {
+    "id": "mx-031",
+    "category": "uk_en_mixed",
+    "text": "Я не можу зробити build, пише помилку."
+  },
+  {
+    "id": "mx-032",
+    "category": "uk_en_mixed",
+    "text": "У мене в staging інші дані, ніж у production."
+  },
+  {
+    "id": "mx-033",
+    "category": "uk_en_mixed",
+    "text": "Команда QA знайшла ще три bugs."
+  },
+  {
+    "id": "mx-034",
+    "category": "uk_en_mixed",
+    "text": "Скільки коштує підписка на Notion?"
+  },
+  {
+    "id": "mx-035",
+    "category": "uk_en_mixed",
+    "text": "Він пушнув зміни прямо в master!"
+  },
+  {
+    "id": "mx-036",
+    "category": "uk_en_mixed",
+    "text": "Не забудь додати changelog до PR."
+  },
+  {
+    "id": "mx-037",
+    "category": "uk_en_mixed",
+    "text": "Мені потрібен доступ до AWS консолі."
+  },
+  {
+    "id": "mx-038",
+    "category": "uk_en_mixed",
+    "text": "Файл конфігурації лежить у репо, спробуй pull."
+  },
+  {
+    "id": "mx-039",
+    "category": "uk_en_mixed",
+    "text": "Настя пише, що в Figma немає mobile версії."
+  },
+  {
+    "id": "mx-040",
+    "category": "uk_en_mixed",
+    "text": "Нам треба поговорити про roadmap на Q3."
+  },
+  {
+    "id": "mx-041",
+    "category": "uk_en_mixed",
+    "text": "Це hotfix, тому без довгого review."
+  },
+  {
+    "id": "mx-042",
+    "category": "uk_en_mixed",
+    "text": "Чому тест flaky тільки на CI?"
+  },
+  {
+    "id": "mx-043",
+    "category": "uk_en_mixed",
+    "text": "Я додав логи, дивись у Datadog."
+  },
+  {
+    "id": "mx-044",
+    "category": "uk_en_mixed",
+    "text": "Давай не будемо ламати backward compatibility."
+  },
+  {
+    "id": "mx-045",
+    "category": "uk_en_mixed",
+    "text": "Видали стару гілку, вона вже merged."
+  },
+  {
+    "id": "mx-046",
+    "category": "uk_en_mixed",
+    "text": "Зайди в Zoom, ми вже починаємо."
+  },
+  {
+    "id": "mx-047",
+    "category": "uk_en_mixed",
+    "text": "У Google Meet немає звуку."
+  },
+  {
+    "id": "mx-048",
+    "category": "uk_en_mixed",
+    "text": "Можеш зробити demo для клієнта у вівторок?"
+  },
+  {
+    "id": "mx-049",
+    "category": "uk_en_mixed",
+    "text": "Мені подобається новий UI, але шрифти дрібні."
+  },
+  {
+    "id": "mx-050",
+    "category": "uk_en_mixed",
+    "text": "Це обмеження rate limit на стороні API."
+  },
+  {
+    "id": "mx-051",
+    "category": "uk_en_mixed",
+    "text": "Налаштував alert у Grafana на помилки 500."
+  },
+  {
+    "id": "mx-052",
+    "category": "uk_en_mixed",
+    "text": "Я оновив залежності, але build все одно падає."
+  },
+  {
+    "id": "mx-053",
+    "category": "uk_en_mixed",
+    "text": "Скинь скріншот у thread, будь ласка."
+  },
+  {
+    "id": "mx-054",
+    "category": "uk_en_mixed",
+    "text": "У нас є ще одна задача в backlog."
+  },
+  {
+    "id": "mx-055",
+    "category": "uk_en_mixed",
+    "text": "Вона допомагає з onboarding нових людей."
+  },
+  {
+    "id": "mx-056",
+    "category": "uk_en_mixed",
+    "text": "Поглянь на мій draft PR, поки без тестів."
+  },
+  {
+    "id": "mx-057",
+    "category": "uk_en_mixed",
+    "text": "Прод впав, усі в call!"
+  },
+  {
+    "id": "mx-058",
+    "category": "uk_en_mixed",
+    "text": "Ми використовуємо Postgres, а не MySQL."
+  },
+  {
+    "id": "mx-059",
+    "category": "uk_en_mixed",
+    "text": "Чи можна зробити feature flag для цього?"
+  },
+  {
+    "id": "mx-060",
+    "category": "uk_en_mixed",
+    "text": "Мені здається, що cache тут зайвий."
+  },
+  {
+    "id": "mx-061",
+    "category": "uk_en_mixed",
+    "text": "Розробники просять більше часу на refactoring."
+  },
+  {
+    "id": "mx-062",
+    "category": "uk_en_mixed",
+    "text": "Підтвердь у Slack, що ти це побачив."
+  },
+  {
+    "id": "mx-063",
+    "category": "uk_en_mixed",
+    "text": "Маєш хвилинку для pair programming?"
+  },
+  {
+    "id": "mx-064",
+    "category": "uk_en_mixed",
+    "text": "Релізний branch заморожений до вівторка."
+  },
+  {
+    "id": "mx-065",
+    "category": "uk_en_mixed",
+    "text": "Я вже зробив squash і push."
+  },
+  {
+    "id": "mx-066",
+    "category": "uk_en_mixed",
+    "text": "Додай мене в reviewers, я гляну."
+  },
+  {
+    "id": "mx-067",
+    "category": "uk_en_mixed",
+    "text": "Не можу залогінитись у VPN з дому."
+  },
+  {
+    "id": "mx-068",
+    "category": "uk_en_mixed",
+    "text": "Баг у Safari, у Chrome все працює."
+  },
+  {
+    "id": "mx-069",
+    "category": "uk_en_mixed",
+    "text": "Менеджер просить статус по тікету до п'ятої."
+  },
+  {
+    "id": "mx-070",
+    "category": "uk_en_mixed",
+    "text": "Є ще одна проблема з CORS на staging."
+  },
+  {
+    "id": "mx-071",
+    "category": "uk_en_mixed",
+    "text": "Ми провели user testing із п'ятьма людьми."
+  },
+  {
+    "id": "mx-072",
+    "category": "uk_en_mixed",
+    "text": "Помилка 404 на сторінці з оплатою."
+  },
+  {
+    "id": "mx-073",
+    "category": "uk_en_mixed",
+    "text": "Просто закинь файл у Google Drive."
+  },
+  {
+    "id": "mx-074",
+    "category": "uk_en_mixed",
+    "text": "Запиши це в Jira як технічний борг."
+  },
+  {
+    "id": "mx-075",
+    "category": "uk_en_mixed",
+    "text": "Це можна зробити через webhook."
+  },
+  {
+    "id": "mx-076",
+    "category": "uk_en_mixed",
+    "text": "Він розповів про свій досвід на DevOps конференції."
+  },
+  {
+    "id": "mx-077",
+    "category": "uk_en_mixed",
+    "text": "Скільки в нас coverage після останнього merge?"
+  },
+  {
+    "id": "mx-078",
+    "category": "uk_en_mixed",
+    "text": "Я не бачу ці дані у dashboard."
+  },
+  {
+    "id": "mx-079",
+    "category": "uk_en_mixed",
+    "text": "Давай глянемо логи в Kibana разом."
+  },
+  {
+    "id": "mx-080",
+    "category": "uk_en_mixed",
+    "text": "Перемкни на dark mode, там краще видно."
+  },
+  {
+    "id": "mx-081",
+    "category": "uk_en_mixed",
+    "text": "Я зробив commit, але забув push."
+  },
+  {
+    "id": "mx-082",
+    "category": "uk_en_mixed",
+    "text": "Для цього треба окремий environment."
+  },
+  {
+    "id": "mx-083",
+    "category": "uk_en_mixed",
+    "text": "Скільки ще triage чекає на мене?"
+  },
+  {
+    "id": "mx-084",
+    "category": "uk_en_mixed",
+    "text": "Thanks, Оксана, це дуже допомогло!"
+  },
+  {
+    "id": "mx-085",
+    "category": "uk_en_mixed",
+    "text": "Hi team, сьогодні без стендапу."
+  },
+  {
+    "id": "mx-086",
+    "category": "uk_en_mixed",
+    "text": "Please check the task, будь ласка, до обіду."
+  },
+  {
+    "id": "mx-087",
+    "category": "uk_en_mixed",
+    "text": "Let's call Андрій, він знає, як це працює."
+  },
+  {
+    "id": "mx-088",
+    "category": "uk_en_mixed",
+    "text": "Привіт, can you review my PR?"
+  },
+  {
+    "id": "mx-089",
+    "category": "uk_en_mixed",
+    "text": "I'm sorry, але сьогодні я не встигну."
+  },
+  {
+    "id": "mx-090",
+    "category": "uk_en_mixed",
+    "text": "We should ask Олег about the legacy code."
+  },
+  {
+    "id": "mx-091",
+    "category": "uk_en_mixed",
+    "text": "This is a bug, так? Або це так задумано?"
+  },
+  {
+    "id": "mx-092",
+    "category": "uk_en_mixed",
+    "text": "Dear Ірина, please find the report attached."
+  },
+  {
+    "id": "mx-093",
+    "category": "uk_en_mixed",
+    "text": "Ok, давай завтра, I'm busy today."
+  },
+  {
+    "id": "mx-094",
+    "category": "uk_en_mixed",
+    "text": "Who is going to Київ next week?"
+  },
+  {
+    "id": "mx-095",
+    "category": "uk_en_mixed",
+    "text": "Дякую! See you tomorrow, колеги."
+  },
+  {
+    "id": "mx-096",
+    "category": "uk_en_mixed",
+    "text": "Our client in Харків wants a new feature."
+  },
+  {
+    "id": "mx-097",
+    "category": "uk_en_mixed",
+    "text": "Sprint review перенесли на четвер."
+  },
+  {
+    "id": "mx-098",
+    "category": "uk_en_mixed",
+    "text": "Мій MacBook знову перегрівається."
+  },
+  {
+    "id": "mx-099",
+    "category": "uk_en_mixed",
+    "text": "Не забудь написати release notes для v3."
+  },
+  {
+    "id": "mx-100",
+    "category": "uk_en_mixed",
+    "text": "Стейкхолдери хочуть dashboard із метриками."
+  },
+  {
+    "id": "nm-001",
+    "category": "names_abbrev",
+    "text": "Олександр із Dell працює над проєктом у Берліні."
+  },
+  {
+    "id": "nm-002",
+    "category": "names_abbrev",
+    "text": "NASA оприлюднила нові знімки Марса."
+  },
+  {
+    "id": "nm-003",
+    "category": "names_abbrev",
+    "text": "Запит до SQL бази повертає порожній JSON."
+  },
+  {
+    "id": "nm-004",
+    "category": "names_abbrev",
+    "text": "Нова версія v2.1 вийшла у вівторок."
+  },
+  {
+    "id": "nm-005",
+    "category": "names_abbrev",
+    "text": "Дивись тікет ABC-123, там усі деталі."
+  },
+  {
+    "id": "nm-006",
+    "category": "names_abbrev",
+    "text": "Maria from Lisbon will join us on Monday."
+  },
+  {
+    "id": "nm-007",
+    "category": "names_abbrev",
+    "text": "HTTP 500 з'являється після оновлення до iOS 18."
+  },
+  {
+    "id": "nm-008",
+    "category": "names_abbrev",
+    "text": "Іван Петренко переходить у відділ продажів."
+  },
+  {
+    "id": "nm-009",
+    "category": "names_abbrev",
+    "text": "Our office in Warsaw is moving to a new building."
+  },
+  {
+    "id": "nm-010",
+    "category": "names_abbrev",
+    "text": "Тікет PAY-4521 заблокований до п'ятниці."
+  },
+  {
+    "id": "nm-011",
+    "category": "names_abbrev",
+    "text": "Google і Microsoft оголосили про співпрацю."
+  },
+  {
+    "id": "nm-012",
+    "category": "names_abbrev",
+    "text": "John Smith asked about the AWS invoice."
+  },
+  {
+    "id": "nm-013",
+    "category": "names_abbrev",
+    "text": "Ми їдемо в Одесу на корпоратив."
+  },
+  {
+    "id": "nm-014",
+    "category": "names_abbrev",
+    "text": "Баг PLAT-88 виправлений у версії v1.4.2."
+  },
+  {
+    "id": "nm-015",
+    "category": "names_abbrev",
+    "text": "Тарас і Соломія обговорюють інтеграцію з Stripe."
+  },
+  {
+    "id": "nm-016",
+    "category": "names_abbrev",
+    "text": "The API returns XML instead of JSON."
+  },
+  {
+    "id": "nm-017",
+    "category": "names_abbrev",
+    "text": "Сергій Мельник бачив це у Нью-Йорку."
+  },
+  {
+    "id": "nm-018",
+    "category": "names_abbrev",
+    "text": "Ticket DEV-902 was closed by Anna Kowalski."
+  },
+  {
+    "id": "nm-019",
+    "category": "names_abbrev",
+    "text": "Зустріч із представниками IBM відбудеться у Лондоні."
+  },
+  {
+    "id": "nm-020",
+    "category": "names_abbrev",
+    "text": "Нам потрібен новий сертифікат SSL до першого числа."
+  },
+  {
+    "id": "nm-021",
+    "category": "names_abbrev",
+    "text": "Катерина Шевченко відповідає за UX."
+  },
+  {
+    "id": "nm-022",
+    "category": "names_abbrev",
+    "text": "Client from Toronto wants SSO via Okta."
+  },
+  {
+    "id": "nm-023",
+    "category": "names_abbrev",
+    "text": "Версія v3.0.1 містить виправлення для Android."
+  },
+  {
+    "id": "nm-024",
+    "category": "names_abbrev",
+    "text": "Дмитро з Харкова допоможе з налаштуванням DNS."
+  },
+  {
+    "id": "nm-025",
+    "category": "names_abbrev",
+    "text": "Where is Oleksandr from QA today?"
+  },
+  {
+    "id": "nm-026",
+    "category": "names_abbrev",
+    "text": "Звіт для CEO готовий, перевір цифри по ROI."
+  },
+  {
+    "id": "nm-027",
+    "category": "names_abbrev",
+    "text": "Проблема з SMTP на сервері в Амстердамі."
+  },
+  {
+    "id": "nm-028",
+    "category": "names_abbrev",
+    "text": "Mykola reported a crash in v2.1.3 on macOS."
+  },
+  {
+    "id": "nm-029",
+    "category": "names_abbrev",
+    "text": "Тікет OPS-317 стосується диска на сервері у Варшаві."
+  },
+  {
+    "id": "nm-030",
+    "category": "names_abbrev",
+    "text": "KPI за квартал потрібно надіслати Вікторії Коваленко."
+  },
+  {
+    "id": "nm-031",
+    "category": "names_abbrev",
+    "text": "Please ask Ihor about the AWS S3 bucket."
+  },
+  {
+    "id": "nm-032",
+    "category": "names_abbrev",
+    "text": "Тестуємо інтеграцію з PayPal і Apple Pay."
+  },
+  {
+    "id": "nm-033",
+    "category": "names_abbrev",
+    "text": "Anna Lee is joining our team in Singapore."
+  },
+  {
+    "id": "nm-034",
+    "category": "names_abbrev",
+    "text": "Нова політика GDPR впливає на наш CRM."
+  },
+  {
+    "id": "nm-035",
+    "category": "names_abbrev",
+    "text": "Юля з Івано-Франківська здала тікет UI-45."
+  },
+  {
+    "id": "nm-036",
+    "category": "names_abbrev",
+    "text": "Both iOS and Android apps use the same REST API."
+  },
+  {
+    "id": "nm-037",
+    "category": "names_abbrev",
+    "text": "Наталія Бойко очолить відділ HR з листопада."
+  },
+  {
+    "id": "nm-038",
+    "category": "names_abbrev",
+    "text": "Version v4.2 supports PDF and DOCX files."
+  },
+  {
+    "id": "nm-039",
+    "category": "names_abbrev",
+    "text": "Богдан купив акції Tesla, але не каже скільки."
+  },
+  {
+    "id": "nm-040",
+    "category": "names_abbrev",
+    "text": "Ми переходимо з AWS на GCP у 2027 році."
+  },
+  {
+    "id": "cd-001",
+    "category": "code_like",
+    "text": "Open /Users/me/Sites/anakena/README.md and check line 42."
+  },
+  {
+    "id": "cd-002",
+    "category": "code_like",
+    "text": "Run npm install && npm run build before pushing."
+  },
+  {
+    "id": "cd-003",
+    "category": "code_like",
+    "text": "The log is at /var/log/nginx/error.log on the server."
+  },
+  {
+    "id": "cd-004",
+    "category": "code_like",
+    "text": "Check https://example.com/docs/api/v2 for the schema."
+  },
+  {
+    "id": "cd-005",
+    "category": "code_like",
+    "text": "Змінна userProfileData повертає null після логіну."
+  },
+  {
+    "id": "cd-006",
+    "category": "code_like",
+    "text": "Встав у конфіг рядок max_retries = 5, будь ласка."
+  },
+  {
+    "id": "cd-007",
+    "category": "code_like",
+    "text": "The backup is 3 GB, so it takes about 15 minutes."
+  },
+  {
+    "id": "cd-008",
+    "category": "code_like",
+    "text": "Зустріч о 15:30, а реліз 2026-10-07."
+  },
+  {
+    "id": "cd-009",
+    "category": "code_like",
+    "text": "Запусти git rebase origin/main і потім git push --force-with-lease."
+  },
+  {
+    "id": "cd-010",
+    "category": "code_like",
+    "text": "File config.yaml has the wrong indent on line 12."
+  },
+  {
+    "id": "cd-011",
+    "category": "code_like",
+    "text": "Функція getUserById кидає помилку, якщо id порожній."
+  },
+  {
+    "id": "cd-012",
+    "category": "code_like",
+    "text": "The query SELECT * FROM users WHERE id = 7 is too slow."
+  },
+  {
+    "id": "cd-013",
+    "category": "code_like",
+    "text": "Диск заповнений на 92%, треба почистити /tmp."
+  },
+  {
+    "id": "cd-014",
+    "category": "code_like",
+    "text": "Set the variable API_BASE_URL=http://localhost:8080 first."
+  },
+  {
+    "id": "cd-015",
+    "category": "code_like",
+    "text": "Файл Package.swift лежить у корені проєкту."
+  },
+  {
+    "id": "cd-016",
+    "category": "code_like",
+    "text": "Run docker compose up -d and wait 30 seconds."
+  },
+  {
+    "id": "cd-017",
+    "category": "code_like",
+    "text": "Помилка в handleSubmitClick, дивись stack trace нижче."
+  },
+  {
+    "id": "cd-018",
+    "category": "code_like",
+    "text": "Deadline is 2026-12-01, around 09:00 UTC."
+  },
+  {
+    "id": "cd-019",
+    "category": "code_like",
+    "text": "Скопіюй ~/Library/Logs/anakena.log у тікет."
+  },
+  {
+    "id": "cd-020",
+    "category": "code_like",
+    "text": "The endpoint POST /api/v1/orders returns 201."
+  },
+  {
+    "id": "cd-021",
+    "category": "code_like",
+    "text": "У нас 200 MB ліміт на завантаження файлів."
+  },
+  {
+    "id": "cd-022",
+    "category": "code_like",
+    "text": "Use snake_case for columns, like created_at and user_id."
+  },
+  {
+    "id": "cd-023",
+    "category": "code_like",
+    "text": "Іконка лежить у assets/icons/arrow-left.svg."
+  },
+  {
+    "id": "cd-024",
+    "category": "code_like",
+    "text": "Run pytest tests/test_login.py -k timeout to reproduce."
+  },
+  {
+    "id": "cd-025",
+    "category": "code_like",
+    "text": "Сервер відповідає за 250 ms, а було 80 ms."
+  },
+  {
+    "id": "cd-026",
+    "category": "code_like",
+    "text": "See src/components/Button.tsx, the onClick prop is missing."
+  },
+  {
+    "id": "cd-027",
+    "category": "code_like",
+    "text": "Скрипт deploy.sh падає з кодом 127."
+  },
+  {
+    "id": "cd-028",
+    "category": "code_like",
+    "text": "The cron job runs at 03:00 every day."
+  },
+  {
+    "id": "cd-029",
+    "category": "code_like",
+    "text": "Додай у .gitignore рядок node_modules/ і .env."
+  },
+  {
+    "id": "cd-030",
+    "category": "code_like",
+    "text": "Our CDN URL is https://cdn.example.com/static/app.js."
+  },
+  {
+    "id": "cd-031",
+    "category": "code_like",
+    "text": "Параметр isEnabled має значення false за замовчуванням."
+  },
+  {
+    "id": "cd-032",
+    "category": "code_like",
+    "text": "Try curl -I https://api.example.com/health first."
+  },
+  {
+    "id": "cd-033",
+    "category": "code_like",
+    "text": "Memory spike to 4 GB at 14:05 on 2026-10-06."
+  },
+  {
+    "id": "cd-034",
+    "category": "code_like",
+    "text": "Скрипт знаходиться в scripts/build_release.py."
+  },
+  {
+    "id": "cd-035",
+    "category": "code_like",
+    "text": "In Swift, use let value = array.first ?? 0 there."
+  },
+  {
+    "id": "cd-036",
+    "category": "code_like",
+    "text": "Branch name is feature/login-fix, not feature/loginFix."
+  },
+  {
+    "id": "cd-037",
+    "category": "code_like",
+    "text": "Таймаут встановлено на 30 s, а потрібно 60 s."
+  },
+  {
+    "id": "cd-038",
+    "category": "code_like",
+    "text": "The build number is 1.4.2 (build 87)."
+  },
+  {
+    "id": "cd-039",
+    "category": "code_like",
+    "text": "Перевір змінну DATABASE_URL у файлі .env.local."
+  },
+  {
+    "id": "cd-040",
+    "category": "code_like",
+    "text": "Set the port to 8443 and restart the nginx service."
+  },
+  {
+    "id": "sw-001",
+    "category": "short_words_heavy",
+    "text": "і ще одне"
+  },
+  {
+    "id": "sw-002",
+    "category": "short_words_heavy",
+    "text": "А я не знаю, а ти?"
+  },
+  {
+    "id": "sw-003",
+    "category": "short_words_heavy",
+    "text": "I do it so we go"
+  },
+  {
+    "id": "sw-004",
+    "category": "short_words_heavy",
+    "text": "В мене є ще й це"
+  },
+  {
+    "id": "sw-005",
+    "category": "short_words_heavy",
+    "text": "Я ж не в курсі, а він у курсі."
+  },
+  {
+    "id": "sw-006",
+    "category": "short_words_heavy",
+    "text": "If I go, we go."
+  },
+  {
+    "id": "sw-007",
+    "category": "short_words_heavy",
+    "text": "Це ж я й до нього, а не до неї."
+  },
+  {
+    "id": "sw-008",
+    "category": "short_words_heavy",
+    "text": "Ні, я не хочу, а ти хочеш?"
+  },
+  {
+    "id": "sw-009",
+    "category": "short_words_heavy",
+    "text": "As is, it is OK, so go on."
+  },
+  {
+    "id": "sw-010",
+    "category": "short_words_heavy",
+    "text": "I am in, so is he."
+  },
+  {
+    "id": "sw-011",
+    "category": "short_words_heavy",
+    "text": "У нас є ще й він."
+  },
+  {
+    "id": "sw-012",
+    "category": "short_words_heavy",
+    "text": "Я й він, ми у цій справі."
+  },
+  {
+    "id": "sw-013",
+    "category": "short_words_heavy",
+    "text": "Do we go or do we stay?"
+  },
+  {
+    "id": "sw-014",
+    "category": "short_words_heavy",
+    "text": "А це ж що за ні?"
+  },
+  {
+    "id": "sw-015",
+    "category": "short_words_heavy",
+    "text": "Ой, а ми ж до них у гості!"
+  },
+  {
+    "id": "sw-016",
+    "category": "short_words_heavy",
+    "text": "Ні, це не я, це він."
+  },
+  {
+    "id": "sw-017",
+    "category": "short_words_heavy",
+    "text": "I go to it as we do."
+  },
+  {
+    "id": "sw-018",
+    "category": "short_words_heavy",
+    "text": "Я до неї, а ти до нього?"
+  },
+  {
+    "id": "sw-019",
+    "category": "short_words_heavy",
+    "text": "To be or not to be, I am in."
+  },
+  {
+    "id": "sw-020",
+    "category": "short_words_heavy",
+    "text": "Ну а що ж ми, у біді, а не в раю?"
+  },
+  {
+    "id": "sw-021",
+    "category": "short_words_heavy",
+    "text": "Я з ним, а ти з ким?"
+  },
+  {
+    "id": "sw-022",
+    "category": "short_words_heavy",
+    "text": "Це ж ще не все, а то й ні."
+  },
+  {
+    "id": "sw-023",
+    "category": "short_words_heavy",
+    "text": "We do it, or we do not."
+  },
+  {
+    "id": "sw-024",
+    "category": "short_words_heavy",
+    "text": "Is it so? I am in or I am out?"
+  },
+  {
+    "id": "sw-025",
+    "category": "short_words_heavy",
+    "text": "Я на це й так не піду, а ти?"
+  },
+  {
+    "id": "sw-026",
+    "category": "short_words_heavy",
+    "text": "А в мене це є, а в тебе ні."
+  },
+  {
+    "id": "sw-027",
+    "category": "short_words_heavy",
+    "text": "Ну і я до тебе, а ти до мене."
+  },
+  {
+    "id": "sw-028",
+    "category": "short_words_heavy",
+    "text": "If it is so, we go on."
+  },
+  {
+    "id": "sw-029",
+    "category": "short_words_heavy",
+    "text": "I am at it, so do not go."
+  },
+  {
+    "id": "sw-030",
+    "category": "short_words_heavy",
+    "text": "Та ну, я ж у тебе на це питав!"
+  },
+  {
+    "id": "sw-031",
+    "category": "short_words_heavy",
+    "text": "Це ж не в цей раз, а в той."
+  },
+  {
+    "id": "sw-032",
+    "category": "short_words_heavy",
+    "text": "Он де це й було, у нас у кутку."
+  },
+  {
+    "id": "sw-033",
+    "category": "short_words_heavy",
+    "text": "In it, so to speak, we go on."
+  },
+  {
+    "id": "sw-034",
+    "category": "short_words_heavy",
+    "text": "Ми з ним до неї, а я з нею до них."
+  },
+  {
+    "id": "sw-035",
+    "category": "short_words_heavy",
+    "text": "Ой, я ж не до того!"
+  },
+  {
+    "id": "sw-036",
+    "category": "short_words_heavy",
+    "text": "Is he in? No, he is on it."
+  },
+  {
+    "id": "sw-037",
+    "category": "short_words_heavy",
+    "text": "Я й так на це, а ти, мабуть, ні."
+  },
+  {
+    "id": "sw-038",
+    "category": "short_words_heavy",
+    "text": "А чи я це в тебе вже брав?"
+  },
+  {
+    "id": "sw-039",
+    "category": "short_words_heavy",
+    "text": "Ну що, до нас чи до них?"
+  },
+  {
+    "id": "sw-040",
+    "category": "short_words_heavy",
+    "text": "Ми ж не в тому, а в цьому!"
+  },
+  {
+    "id": "sw-041",
+    "category": "short_words_heavy",
+    "text": "We go on, as it is so."
+  },
+  {
+    "id": "sw-042",
+    "category": "short_words_heavy",
+    "text": "Я о п'ятій у тебе, а ти о шостій?"
+  },
+  {
+    "id": "sw-043",
+    "category": "short_words_heavy",
+    "text": "Хто з нас у цій черзі, я чи ти?"
+  },
+  {
+    "id": "sw-044",
+    "category": "short_words_heavy",
+    "text": "I do not go, so it is up to us."
+  },
+  {
+    "id": "sw-045",
+    "category": "short_words_heavy",
+    "text": "А це що, ще й він тут?"
+  },
+  {
+    "id": "sw-046",
+    "category": "short_words_heavy",
+    "text": "So I go, we do it, or no?"
+  },
+  {
+    "id": "sw-047",
+    "category": "short_words_heavy",
+    "text": "Ну я це й до цього ще не в курсі."
+  },
+  {
+    "id": "sw-048",
+    "category": "short_words_heavy",
+    "text": "Я це на ніч, а ти на ранок, ні?"
+  },
+  {
+    "id": "sw-049",
+    "category": "short_words_heavy",
+    "text": "It is we or it is I?"
+  },
+  {
+    "id": "sw-050",
+    "category": "short_words_heavy",
+    "text": "Ні-ні, я до тебе, а не до нього."
+  },
+  {
+    "id": "sl-001",
+    "category": "slang_typos",
+    "text": "fucking do it already!"
+  },
+  {
+    "id": "sl-002",
+    "category": "slang_typos",
+    "text": "як справи, що робиш"
+  },
+  {
+    "id": "sl-003",
+    "category": "slang_typos",
+    "text": "ну шо там з деплоєм, живий?"
+  },
+  {
+    "id": "sl-004",
+    "category": "slang_typos",
+    "text": "та я хз, воно само зламалось"
+  },
+  {
+    "id": "sl-005",
+    "category": "slang_typos",
+    "text": "lol this is so broken"
+  },
+  {
+    "id": "sl-006",
+    "category": "slang_typos",
+    "text": "бляха, знову впав прод"
+  },
+  {
+    "id": "sl-007",
+    "category": "slang_typos",
+    "text": "okay okay, I get it, chill"
+  },
+  {
+    "id": "sl-008",
+    "category": "slang_typos",
+    "text": "нє, ну це вже якийсь треш"
+  },
+  {
+    "id": "sl-009",
+    "category": "slang_typos",
+    "text": "привітик, є хвилинка?"
+  },
+  {
+    "id": "sl-010",
+    "category": "slang_typos",
+    "text": "дякс, все ок"
+  },
+  {
+    "id": "sl-011",
+    "category": "slang_typos",
+    "text": "what the hell is this error"
+  },
+  {
+    "id": "sl-012",
+    "category": "slang_typos",
+    "text": "Ну шо, погнали на обід?"
+  },
+  {
+    "id": "sl-013",
+    "category": "slang_typos",
+    "text": "I dunno man, seems legit to me"
+  },
+  {
+    "id": "sl-014",
+    "category": "slang_typos",
+    "text": "Це якась дичина, а не інтерфейс."
+  },
+  {
+    "id": "sl-015",
+    "category": "slang_typos",
+    "text": "сорі, не побачив повідомлення"
+  },
+  {
+    "id": "sl-016",
+    "category": "slang_typos",
+    "text": "omg, who wrote this code"
+  },
+  {
+    "id": "sl-017",
+    "category": "slang_typos",
+    "text": "нічого собі, воно запрацювало!"
+  },
+  {
+    "id": "sl-018",
+    "category": "slang_typos",
+    "text": "тупо не відкривається, шо робити"
+  },
+  {
+    "id": "sl-019",
+    "category": "slang_typos",
+    "text": "Тестер знайшов баг, шо ж, буває."
+  },
+  {
+    "id": "sl-020",
+    "category": "slang_typos",
+    "text": "Privit, yak spravy? Ya zavtra ne pryidu."
+  },
+  {
+    "id": "sl-021",
+    "category": "slang_typos",
+    "text": "kinda busy rn, ping me later"
+  },
+  {
+    "id": "sl-022",
+    "category": "slang_typos",
+    "text": "Wsyo, ya poshov, do zavtra!"
+  },
+  {
+    "id": "sl-023",
+    "category": "slang_typos",
+    "text": "шо за фігня з цим білдом"
+  },
+  {
+    "id": "sl-024",
+    "category": "slang_typos",
+    "text": "Thx for the help, mate, apreciate it"
+  },
+  {
+    "id": "sl-025",
+    "category": "slang_typos",
+    "text": "та ладно, не парся, воно норм"
+  },
+  {
+    "id": "sl-026",
+    "category": "slang_typos",
+    "text": "Не знаю чого, але воно кароче не працює."
+  },
+  {
+    "id": "sl-027",
+    "category": "slang_typos",
+    "text": "Хто зламав білд, признавайтесь!"
+  },
+  {
+    "id": "sl-028",
+    "category": "slang_typos",
+    "text": "Teh build is broken agian"
+  },
+  {
+    "id": "sl-029",
+    "category": "slang_typos",
+    "text": "це піздець, а не реліз"
+  },
+  {
+    "id": "sl-030",
+    "category": "slang_typos",
+    "text": "Ладн, я погнав, бувайте."
+  }
+]
