@@ -58,11 +58,13 @@ To add a translation, copy `Localization/en.lproj` to `Localization/<code>.lproj
 ```sh
 ./scripts/make-cert.sh   # once per Mac: local signing identity "Anakena Local Signing"
 ./build.sh               # makes build/Anakena.app
-osascript -e 'quit app "Anakena"'   # quit a running copy first (or choose Quit in its menu)
-trash /Applications/Anakena.app      # old copy to the Trash (macOS 15+; or drag it in Finder)
 cp -R build/Anakena.app /Applications/
 open /Applications/Anakena.app
 ```
+
+**Updating** (Anakena is already installed): quit it first (**Quit** in its menu, or
+`osascript -e 'quit app "Anakena"'`), move the old `/Applications/Anakena.app` to the
+Trash, then run the `cp -R` and `open` lines again.
 
 `make-cert.sh` is safe to run again. It makes a self-signed certificate in your login
 keychain (macOS may ask for your login password), without sudo or trust changes. On each
