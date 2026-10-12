@@ -65,6 +65,11 @@ struct Corrector {
         let otherChars = strokes.compactMap { oth.char(for: $0) }
         guard typedChars.count == strokes.count, otherChars.count == strokes.count else { return nil }
 
+        // A single letter needs an immediately preceding correction as context.
+        // Reuse retro-fix guards: protect source a/I, ignored words and punctuation,
+        // and accept only the existing language-specific one-letter whitelist.
+        if strokes.count == 1, afterFix { return fixShort(strokes, typedIn: current) }
+
         let currentIsWord = isWord(strokes, in: current)
         let learnedToken = always.contains(typedChars.joined().lowercased())
 
@@ -151,6 +156,13 @@ struct Corrector {
             let word = chars[range].joined()
             return word.count >= 2 && Self.isLexicalWord(word) && isCorrect(word, in: lang)
         }
+    }
+
+    /// A conservative context anchor, without treating a lone letter as a dictionary word.
+    func isSingleLetterWord(_ strokes: [Stroke], in lang: Lang) -> Bool {
+        guard strokes.count == 1, speller.supports(lang),
+              let text = layouts.tables[lang]?.char(for: strokes[0]) else { return false }
+        return Self.oneLetterWords[lang, default: []].contains(text.lowercased())
     }
 
     /// Fix only the trailing short words typed in the other layout.

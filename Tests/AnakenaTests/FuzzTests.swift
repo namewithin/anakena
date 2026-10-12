@@ -45,11 +45,11 @@ final class FuzzTests: XCTestCase {
                     var replay = FuzzReplay(corrector: corrector)
                     let got = replay.process(input)
                     var row = stats[sentence.category, default: [:]][mode, default: FuzzStats()]
-                    if let reason = row.record(typed: input.typed, got: got, expected: sentence.text) {
+                    if let reason = row.record(typed: input.typed, got: got, expected: sentence.text, presented: replay.presented) {
                         failures.append(FuzzFailure(id: sentence.id, category: sentence.category,
                                                     mode: mode.rawValue, pass: pass, seed: seed,
                                                     typed: input.typed, got: got, expected: sentence.text,
-                                                    reason: reason))
+                                                    reason: reason, presented: replay.presented, decisions: replay.decisions))
                     }
                     stats[sentence.category, default: [:]][mode] = row
                     ran += 1
@@ -66,11 +66,16 @@ final class FuzzTests: XCTestCase {
         explicitly selected before typing so automatic switches do not manufacture FP. Separators stay literal.
         The final word is flushed with a virtual Space. Learned lists are empty.
         Fix rate = correct output / baseline wrong words (includes errors prevented by layout switching).
-        FP = baseline clean words changed, including CLEAN mode; missed = wrong words left unchanged;
-        wrong = wrong words changed to another wrong output. n/a means a zero denominator.
+        Baseline FP/missed/wrong compare final output with the planned input without Anakena.
+        Detector FP/missed/wrong compare final output with each word actually rendered BEFORE its
+        boundary decision (including later retro-fixes). Detector misses include switch-induced gibberish.
+        Layout affected = actual word differs from planned input; unresolved = final word still wrong.
+        These columns overlap: layout origin and detector response are separate measurements.
+        Decision traces record current/group/retro replacements; no real keyboard input is sent.
+        n/a means a zero denominator.
 
-        | Category | Mode | Exact sentences | Word fix rate | FP / clean words | Missed | Wrong |
-        |---|---|---:|---:|---:|---:|---:|
+        | Category | Mode | Exact sentences | Word fix rate | FP / clean words | Missed | Wrong | Detector FP | Detector missed | Detector wrong | Layout affected | Layout unresolved |
+        |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 
         """
         for category in stats.keys.sorted() {
@@ -78,7 +83,7 @@ final class FuzzTests: XCTestCase {
                 guard let row = stats[category]?[mode] else { continue }
                 summary += "| \(category) | \(mode.rawValue) | \(row.exact)/\(row.sentences) (\(FuzzStats.rate(row.exact, row.sentences)))"
                     + " | \(row.fixed)/\(row.needsFix) (\(FuzzStats.rate(row.fixed, row.needsFix)))"
-                    + " | \(row.falsePositives)/\(row.cleanWords) | \(row.missed) | \(row.wrong) |\n"
+                    + " | \(row.falsePositives)/\(row.cleanWords) | \(row.missed) | \(row.wrong) | \(row.detectorFalsePositives) | \(row.detectorMissed) | \(row.detectorWrong) | \(row.layoutAffected) | \(row.layoutUnresolved) |\n"
             }
         }
         summary += "\nRuns: \(ran); failed sentences: \(failures.count). Quality outside CLEAN guards is report-only.\n"

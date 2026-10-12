@@ -49,8 +49,17 @@ struct WordPipeline {
             return leading.isEmpty ? .correction(c) : .correctionGroup(leading + [c])
         }
 
-        let short = automatic && !prev.isEmpty && corrector.isWord(strokes, in: lang)
+        let dictionaryAnchor = corrector.isWord(strokes, in: lang)
+        let singleAnchor = corrector.isSingleLetterWord(strokes, in: lang)
+        var short = automatic && !prev.isEmpty && (dictionaryAnchor || singleAnchor)
             ? corrector.fixShortWords(prev.map { ($0.strokes, $0.lang) }, before: lang) : []
+        if !dictionaryAnchor {
+            // A lone letter is weaker context: do not reinterpret units such as "s,"
+            // or other single-letter tokens. Preserve a contiguous eligible suffix.
+            short = Array(short.reversed().prefix {
+                $0.word.count == 2 && $0.typed == $0.word
+            }.reversed())
+        }
         if !short.isEmpty { return .shortWords(short) }
         if boundary == 49 {
             run = Array((prev + [Word(strokes: strokes, lang: lang, boundary: boundary)]).suffix(3))

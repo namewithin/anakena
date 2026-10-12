@@ -58,4 +58,64 @@ final class FuzzHarnessTests: XCTestCase {
             XCTAssertEqual(replay.process(input), text)
         }
     }
+    func testSwitchConsequencesAreNotDetectorFalsePositives() throws {
+        struct Words: Speller {
+            func isCorrect(_ word: String, in lang: Lang) -> Bool {
+                lang == .uk && word.lowercased() == "нова"
+            }
+        }
+        let corrector = Corrector(layouts: try layouts(), speller: Words())
+        let (prefix, words) = FuzzGenerator.words("Нова PR", layouts: corrector.layouts)
+        let input = FuzzInput(prefix: prefix, words: words, mistaken: [0])
+        var replay = FuzzReplay(corrector: corrector)
+        let got = replay.process(input)
+        XCTAssertEqual(input.typed, "Yjdf PR")
+        XCTAssertEqual(replay.presented, "Yjdf ЗК")
+        XCTAssertEqual(got, "Нова ЗК")
+        XCTAssertEqual(replay.decisions.map(\.typed), ["Yjdf"])
+        XCTAssertEqual(replay.decisions.map(\.converted), ["Нова"])
+        var stats = FuzzStats()
+        _ = stats.record(typed: input.typed, got: got, expected: "Нова PR", presented: replay.presented)
+        XCTAssertEqual(stats.falsePositives, 1, "Baseline metric retains the end-to-end consequence")
+        XCTAssertEqual(stats.detectorFalsePositives, 0)
+        XCTAssertEqual(stats.layoutAffected, 1)
+        XCTAssertEqual(stats.layoutUnresolved, 1)
+        XCTAssertEqual(stats.detectorMissed, 1)
+        // Reusing the replay must not retain the previous run's state or trace.
+        XCTAssertEqual(replay.process(input), got)
+        XCTAssertEqual(replay.presentedWords.count, 2)
+        XCTAssertEqual(replay.decisions.count, 1)
+    }
+
+    func testActualInputMetricsKeepDirectErrorsAndPreventedErrorsSeparate() {
+        var stats = FuzzStats()
+        _ = stats.record(typed: "hello руддщ руддщ", got: "руддщ hello wrong",
+                         expected: "hello hello hello", presented: "hello hello руддщ")
+        XCTAssertEqual(stats.detectorFalsePositives, 1)
+        XCTAssertEqual(stats.detectorWrong, 1)
+        XCTAssertEqual(stats.detectorMissed, 0)
+        XCTAssertEqual(stats.layoutAffected, 1)
+        XCTAssertEqual(stats.layoutUnresolved, 0, "An automatic switch prevented the second error")
+    }
+
+    func testRetroChangeIsRecordedAsDetectorFalsePositive() throws {
+        struct Words: Speller {
+            func isCorrect(_ word: String, in lang: Lang) -> Bool {
+                lang == .uk && ["одне", "і"].contains(word.lowercased())
+            }
+        }
+        let corrector = Corrector(layouts: try layouts(), speller: Words())
+        let (prefix, words) = FuzzGenerator.words("s одне", layouts: corrector.layouts)
+        var replay = FuzzReplay(corrector: corrector)
+        let input = FuzzInput(prefix: prefix, words: words, mistaken: [])
+        let got = replay.process(input)
+        XCTAssertEqual(replay.presented, "s одне")
+        XCTAssertEqual(got, "і одне")
+        XCTAssertEqual(replay.decisions.map(\.kind), ["retro"])
+        var stats = FuzzStats()
+        _ = stats.record(typed: input.typed, got: got, expected: "s одне", presented: replay.presented)
+        XCTAssertEqual(stats.detectorFalsePositives, 1)
+        XCTAssertEqual(stats.layoutAffected, 0)
+    }
+
 }

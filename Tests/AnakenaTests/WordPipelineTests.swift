@@ -296,4 +296,72 @@ final class WordPipelineTests: XCTestCase {
         var clean = FuzzReplay(corrector: corrector)
         XCTAssertEqual(clean.process(FuzzInput(prefix: prefix, words: words, mistaken: [])), text)
     }
+
+
+    func testSingleLetterAnchorRepairsOnlyEligiblePredecessors() throws {
+        struct Words: Speller {
+            func isCorrect(_ word: String, in lang: Lang) -> Bool {
+                lang == .uk && ["на", "ми", "я", "і", "у"].contains(word.lowercased())
+            }
+        }
+        let c = Corrector(layouts: try corrector().layouts, speller: Words())
+        for text in ["на я", "ми я"] {
+            let (prefix, words) = FuzzGenerator.words(text, layouts: c.layouts)
+            var replay = FuzzReplay(corrector: c)
+            XCTAssertEqual(replay.process(FuzzInput(prefix: prefix, words: words, mistaken: [0])), text)
+        }
+        for text in ["a я", "I я", "s я", "s, а", "30 s, а", "yf  я", "yf\tя", "yf\nя", "yf"] {
+            let (prefix, words) = FuzzGenerator.words(text, layouts: c.layouts)
+            var replay = FuzzReplay(corrector: c)
+            XCTAssertEqual(replay.process(FuzzInput(prefix: prefix, words: words, mistaken: [])), text)
+        }
+        var ignored = c
+        ignored.ignored = ["yf"]
+        let (prefix, words) = FuzzGenerator.words("yf я", layouts: c.layouts)
+        var replay = FuzzReplay(corrector: ignored)
+        XCTAssertEqual(replay.process(FuzzInput(prefix: prefix, words: words, mistaken: [])), "yf я")
+    }
+
+    func testSingleLetterAfterFixUsesExistingShortWordSafetyRules() throws {
+        let c = try corrector()
+        for (typed, expected) in [("s", "і"), ("e", "у")] {
+            var pipeline = WordPipeline(afterFix: true)
+            guard case let .correction(fix) = pipeline.end(try strokes(typed, on: .en, using: c),
+                    boundary: 49, lang: .en, automatic: true, corrector: c) else {
+                XCTFail("Expected contextual single-letter correction for \(typed)"); continue
+            }
+            XCTAssertEqual(fix.converted, expected)
+            XCTAssertEqual(fix.typed, typed)
+            XCTAssertTrue(pipeline.afterFix)
+        }
+        for (typed, context, automatic) in [("s", false, true), ("a", true, true),
+                                            ("I", true, true), (";", true, true), ("s", true, false)] {
+            var pipeline = WordPipeline(afterFix: context)
+            guard case .unchanged = pipeline.end(try strokes(typed, on: .en, using: c),
+                    boundary: 49, lang: .en, automatic: automatic, corrector: c) else {
+                XCTFail("Must preserve \(typed)"); continue
+            }
+        }
+        var ignored = c
+        ignored.ignored = ["s"]
+        var pipeline = WordPipeline(afterFix: true)
+        guard case .unchanged = pipeline.end(try strokes("s", on: .en, using: c), boundary: 49,
+                lang: .en, automatic: true, corrector: ignored) else {
+            return XCTFail("Ignored single letters must remain unchanged")
+        }
+    }
+
+    func testSystemDictionaryProtectedShortWordsStayUnchangedWithAnchor() throws {
+        let c = try systemCorrector()
+        for text in ["wt я", "Vb я", "pf я", "Yt я", "a я", "I я",
+                     "Таймаут встановлено на 30 s, а потрібно 60 s."] {
+            let (prefix, words) = FuzzGenerator.words(text, layouts: c.layouts)
+            var replay = FuzzReplay(corrector: c)
+            XCTAssertEqual(replay.process(FuzzInput(prefix: prefix, words: words, mistaken: [])), text)
+        }
+        let (prefix, words) = FuzzGenerator.words("на я", layouts: c.layouts)
+        var replay = FuzzReplay(corrector: c)
+        XCTAssertEqual(replay.process(FuzzInput(prefix: prefix, words: words, mistaken: [0])), "на я")
+    }
+
 }

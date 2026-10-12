@@ -246,11 +246,15 @@ final class CorrectorTests: XCTestCase {
         XCTAssertNil(corrector.decide(try strokes("ше", on: .uk), current: .uk, afterFix: false))
     }
 
-    func testOneLetterIsLeftAlone() throws {
+    func testOneLetterRequiresImmediateCorrectionContext() throws {
         var corrector = self.corrector
-        XCTAssertNil(corrector.decide(try strokes("ф", on: .uk), current: .uk, afterFix: true))
+        let keys = try strokes("ф", on: .uk)
+        XCTAssertNil(corrector.decide(keys, current: .uk))
+        XCTAssertEqual(corrector.decide(keys, current: .uk, afterFix: true)?.converted, "a")
         corrector.always = ["ф"]
-        XCTAssertNil(corrector.decide(try strokes("ф", on: .uk), current: .uk, afterFix: true))
+        XCTAssertNil(corrector.decide(keys, current: .uk), "Learning cannot bypass the context requirement")
+        corrector.ignored = ["ф"]
+        XCTAssertNil(corrector.decide(keys, current: .uk, afterFix: true))
     }
 
     func testLearnableWord() throws {

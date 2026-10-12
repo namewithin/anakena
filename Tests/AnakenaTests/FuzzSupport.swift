@@ -136,10 +136,20 @@ struct FuzzReplay {
     private var planned: Lang?
     private var buffer: [Stroke] = []
     private var output = ""
+    private(set) var presentedWords: [String] = []
+    private(set) var decisions: [FuzzDecision] = []
+
+    var presented: String { presentedWords.joined(separator: " ") }
 
     init(corrector: Corrector) { self.corrector = corrector }
 
     mutating func process(_ input: FuzzInput) -> String {
+        pipeline = WordPipeline()
+        current = .en
+        planned = nil
+        buffer = []
+        presentedWords = []
+        decisions = []
         output = input.prefix
         for (i, word) in input.words.enumerated() {
             if let own = word.own {
@@ -159,14 +169,18 @@ struct FuzzReplay {
                     planned = desired
                 }
             }
+            var presentedWord = ""
             for (ch, key) in zip(word.intended, word.keys) {
                 if let key, let rendered = corrector.layouts.tables[current]?.char(for: key) {
+                    presentedWord += rendered
                     output += rendered
                     append(key)
                 } else {
+                    presentedWord.append(ch)
                     literal(ch)
                 }
             }
+            presentedWords.append(presentedWord)
             for ch in word.following { literal(ch) }
         }
         // Finish the final word with a virtual Space, without changing the oracle text.
@@ -203,6 +217,15 @@ struct FuzzReplay {
         let action = pipeline.end(strokes, boundary: boundary, lang: current,
                                   automatic: true, corrector: corrector)
         buffer = []
+        let changes: [Correction]
+        let kind: String
+        switch action {
+        case .unchanged: changes = []; kind = "unchanged"
+        case let .correction(c): changes = [c]; kind = "current"
+        case let .correctionGroup(group): changes = group; kind = "group"
+        case let .shortWords(short): changes = short; kind = "retro"
+        }
+        decisions += changes.map { FuzzDecision(kind: kind, typed: $0.typed, converted: $0.converted) }
         switch action {
         case .unchanged: break
         case let .correction(c):
@@ -222,6 +245,12 @@ struct FuzzReplay {
     }
 }
 
+struct FuzzDecision: Encodable {
+    let kind: String
+    let typed: String
+    let converted: String
+}
+
 struct FuzzStats {
     var sentences = 0
     var exact = 0
@@ -232,18 +261,36 @@ struct FuzzStats {
     var falsePositives = 0
     var missed = 0
     var wrong = 0
+    var detectorFalsePositives = 0
+    var detectorMissed = 0
+    var detectorWrong = 0
+    var layoutAffected = 0
+    var layoutUnresolved = 0
 
-    mutating func record(typed: String, got: String, expected: String) -> String? {
+    mutating func record(typed: String, got: String, expected: String, presented: String? = nil) -> String? {
         sentences += 1
         if got == expected { exact += 1 }
         let t = typed.split(whereSeparator: \.isWhitespace).map(String.init)
         let g = got.split(whereSeparator: \.isWhitespace).map(String.init)
         let e = expected.split(whereSeparator: \.isWhitespace).map(String.init)
+        let actual = (presented ?? typed).split(whereSeparator: \.isWhitespace).map(String.init)
         var fp = 0, miss = 0, bad = 0
+        var detectorFP = 0, detectorMiss = 0, detectorBad = 0, affected = 0, unresolved = 0
         words += e.count
         for i in e.indices {
             let typedWord = i < t.count ? t[i] : ""
             let gotWord = i < g.count ? g[i] : ""
+            let actualWord = i < actual.count ? actual[i] : ""
+            if actualWord != typedWord {
+                affected += 1
+                if gotWord != e[i] { unresolved += 1 }
+            }
+            if actualWord == e[i] {
+                if gotWord != e[i] { detectorFP += 1 }
+            } else if gotWord != e[i] {
+                if gotWord == actualWord { detectorMiss += 1 }
+                else { detectorBad += 1 }
+            }
             if typedWord == e[i] {
                 cleanWords += 1
                 if gotWord != e[i] { fp += 1 }
@@ -256,11 +303,19 @@ struct FuzzStats {
         }
         // Extra output words count as wrong output rather than disappearing from the report.
         bad += max(0, g.count - e.count)
+        detectorBad += max(0, g.count - e.count)
+        detectorFalsePositives += detectorFP
+        detectorMissed += detectorMiss
+        detectorWrong += detectorBad
+        layoutAffected += affected
+        layoutUnresolved += unresolved
         falsePositives += fp
         missed += miss
         wrong += bad
         guard got != expected else { return nil }
-        return "false_positives=\(fp), missed=\(miss), wrong=\(bad)"
+        return "baseline_false_positives=\(fp), baseline_missed=\(miss), baseline_wrong=\(bad)"
+            + ", detector_false_positives=\(detectorFP), detector_missed=\(detectorMiss), detector_wrong=\(detectorBad)"
+            + ", layout_affected=\(affected), layout_unresolved=\(unresolved)"
             + (g.count != e.count ? ", word_count_mismatch" : "")
             + (fp + miss + bad == 0 ? ", separator_mismatch" : "")
     }
@@ -280,6 +335,8 @@ struct FuzzFailure: Encodable {
     let got: String
     let expected: String
     let reason: String
+    var presented: String? = nil
+    var decisions: [FuzzDecision] = []
 }
 
 enum FuzzReports {

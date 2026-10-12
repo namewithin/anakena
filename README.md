@@ -105,7 +105,8 @@ When you press Space, Tab or Return, the finished word is converted only if **al
 - it has at least 3 letters, has no digits and does not look like code (`camelCase`,
   `a/b`, `snake_case`, short ALL-CAPS like `NASA`). A 2-letter word right after a word
   that was just auto-fixed (only spaces between) is checked with the same spelling
-  rules; this path leaves single letters alone.
+  rules. A single letter immediately after an auto-fix can also be corrected using
+  the fixed English/Ukrainian one-letter lists below; valid source letters stay unchanged.
 
 A punctuation key may represent a letter in the other layout (`,elm` → `будь`,
 `lzre.` → `дякую`). Both the whole token and the word inside
@@ -119,6 +120,8 @@ they are wrong as typed and right in that word's language: `s ot одне` → `
 They must be in the same typing run, separated by one space each, and typed in the
 other layout. A convertible short predecessor can also establish context for a
 2-letter word: `F nb yt` → `А ти не`; a standalone short word remains unchanged.
+A correctly typed one-letter word from these lists can also anchor preceding two-letter words
+without attached punctuation; it does not anchor preceding single letters or units such as `s,`.
 One-letter words use a fixed list for English (`a`, `I`) and Ukrainian
 (`а б в ж з й і о у я`); other languages have no one-letter retro-fixes.
 The run survives a layout switch made right after a space. One Undo restores the
